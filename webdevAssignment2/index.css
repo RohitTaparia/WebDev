@@ -1,0 +1,75 @@
+body{
+    width:100%;
+    background-color: rgb(194, 151, 151);
+    background-image: url('Back.webp');
+}
+header{
+    background-color: black;
+    color:cornsilk;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    
+    width:100%;
+}
+.Nav{
+    background-color: cyan;
+    color: black;
+    position: sticky;
+}
+ul{
+    border-top: blueviolet;
+    border-bottom: blueviolet;
+}
+.Nav li{
+    font-size: 20 px;
+
+}
+.content img{
+    align-content: center;
+}
+.content h1{
+    text-align: center;
+    color: rgb(red, green, blue);   
+}
+.content h2{
+    text-align: right;
+    color: rgb(red, green, blue);
+    border: 10 px solid black;
+    margin: 20px;   
+}
+
+.content p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border-bottom: 2 px solid black;
+    border-top: 2 px solid black;
+    width: 300px;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+    float: center;
+    
+}
+.content img{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height:4 px;
+    float: right;
+}
+.content span{
+    font-size: 15 px;
+    text-align: center;
+    color: blueviolet;
+}
+footer{
+    background-color: black;
+}
+footer h2{
+    color: cyan;
+}
+footer a{
+    font-size: 10 px;
+    color:blue;
+}

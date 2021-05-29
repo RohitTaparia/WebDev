@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: black;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color: black;
+    color: chartreuse;
+}
+.Contact{
+    padding: 20 px 20 px 20 px 20px;
+    text-align: center;
+    background-color: chartreuse;
+    border: 1px solid black;
+    width: 1500px;
+    height: 400px;
+    align-content: center;
+}
+form{
+    display: block;
+}
