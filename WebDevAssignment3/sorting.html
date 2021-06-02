@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting</title>
+</head>
+<body>
+    <style>
+        button{
+            align-items: center;
+            margin:40px;
+            height:60px;
+            width:40 px;
+            background-color: black;
+            color: rgb(207, 190, 157);
+            font-size: 22px;
+        }
+        body{
+            background-color: blanchedalmond;
+        }
+    </style>
+    <button onclick="sortAlpha()">Alphabetically Sort</button>
+    <button onclick="sortNum()">Numerically Sort(Ascending)</button>
+    <button onclick="sortNumDes()">Numerically Sort(Descending)</button>
+    <p id="ID"></p>
+
+    <script>
+        var points=[4,3,5,1,10,2,22,12];
+        document.getElementById("ID").innerHTML = points;
+        sortAlpha=()=>{
+            points.sort();
+            document.getElementById("ID").innerHTML = points;
+        }
+        sortNum=()=>{
+            points.sort(function(a,b){return a-b});
+            document.getElementById("ID").innerHTML = points;
+        }
+        sortNumDes=()=>{
+            points.sort(function(a,b){return b-a});
+            document.getElementById("ID").innerHTML = points;
+        }
+
+    </script>
+</body>
+</html>
